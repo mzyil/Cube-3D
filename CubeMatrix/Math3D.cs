@@ -44,11 +44,6 @@ namespace CubeMatrix
 
             public Vector2D Convert2D(float angle)
             {
-                //float xxx = (2 / (r - 1)) * n * x - (r + 1) / (r - 1);
-                //float yyy = (2 * n / (t - b)) * n * y / x - (t + b) / (t - b);
-
-                //float lastX = (2 * n * x / (r - 1) - (r + 1) * z / (r - 1));
-                //float lastY = ((2 * n / (t - b)) * y - (t + b) / (t - b) * z);
 
                 float scale = 250 / (250 + z);
                 //float lastX = x * scale + 500 / 2 + 500;
